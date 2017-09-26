@@ -1,0 +1,53 @@
+public class lessonOne {
+	
+	int age;
+		
+	
+	public static void main(String[] args) {
+		
+		lessonOne object1 = new lessonOne();
+		
+		object1.age = 100;
+		int bla = 100;
+		
+		if(object1.age == 32)
+		{
+			System.out.println("Got it!");
+		}
+		else if(object1.age > 32)
+		{
+			System.out.println("Perfect!");		
+		}
+		else {
+			System.out.println("bka");
+		}
+	
+  //do will run the while command once before
+		do {
+			System.out.println("DO- While loop!" + object1.age);
+			object1.age++;
+		} 	
+		while (object1.age <= 40);
+	switch(bla)
+	{
+	case 60:
+		System.out.println("ok");
+	break;
+	case 30:
+		System.out.println("too young");
+		break;
+	case 90:
+		System.out.println("too old");
+		break;
+	case 100:
+		do {
+			System.out.println("Counting " + bla);
+			bla --;
+		} while (bla >= 60);
+	break;
+	default :
+		System.out.println("Wrong Value");
+	}
+	
+}
+}
