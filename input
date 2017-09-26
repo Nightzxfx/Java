@@ -16,3 +16,50 @@ public class Scannerexsample {
 	
 	}	
 }
+
+
+
+----------------------------------------------------------
+import java.util.Scanner;
+
+public class Scannerexsample {
+
+	public static void main(String[] args) {
+
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("What is your name?");
+			String name = sc.nextLine();
+			System.out.println("Welcome " + name + " to our fisr input code.");
+			System.out.println("Alright " + name + " .How old are you?");
+			int age = sc.nextInt();
+			System.out.println(age + " ?, such a baby!");
+			System.out.println("Now your turn to ask, typing true or false would like to know my name?");
+			String question = sc.next();
+
+			// while (question != "true" || question != "false")
+			// {
+			switch (question) {
+			case "true":
+				System.out.println("My name is Mr Robot!");
+				break;
+
+			case "false":
+				System.out.println("So we have nothing else to talk about!");
+				break;
+
+			default:
+				System.out.println("bye bye");
+				break;
+			}
+
+			System.out.println("What is my name " + name + " ?");
+			String question1 = sc.nextLine();
+			if (question1.equalsIgnoreCase("Mr Robot"))
+			{
+				System.out.println();
+			}
+
+		}
+	}
+}
+// }
