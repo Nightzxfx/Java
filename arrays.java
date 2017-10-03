@@ -17,4 +17,13 @@ public static void main(String[] args) {
   }
   
   
-  Int Array[] = new Int[10];
+  Int ArrayName[] = new Int[3];
+	ArrayName[0] = 10;
+	ArrayName[1] = 32;
+	ArrayName[2] = 84;
+
+
+ String ArrayName[] = new String[3];
+	ArrayName[0] = "Paulo";
+	ArrayName[1] = "Leandro";
+	ArrayName[2] = "Mayra";
