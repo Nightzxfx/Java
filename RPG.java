@@ -89,19 +89,20 @@ public class game1 {
 		} else {
 			System.out.println("I thought that you were mature to understand some rules, apparentely you are not, you could have asked for 'help'! BYE");
 		}
-	
+	}
+}
 		
 		
-		
-		
+		//find a way to store the data in the txt file.
+		//https://stackoverflow.com/questions/1053467/how-do-i-save-a-string-to-a-text-file-using-java
 
 	
 
 		
 	
 
-
-
+/*
+      another way to set the life and name to implement later
 		game1 Knight = new game1();
 
 		Knight.setHealth(1000);
@@ -121,5 +122,4 @@ public class game1 {
 	}
 }
 
-
-
+*/
