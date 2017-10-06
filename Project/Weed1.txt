@@ -1,0 +1,38 @@
+
+
+Objective: 
+
+- Store a weed database connected to a local Database server.
+- Store dispensory data such as (location, price and weed variability).
+- Select the best week types for what the client is looking for.
+- Some matterial about how to use and grow.
+
+Dispensery: 
+- Set a priority dispensery that would show up on the app by (cabaility to deliver, price, customer satisfaction, website, etc).
+- Make agreements, set a markup for each sales trought the app.
+- Provide a DB list of what they offer.
+
+User:
+- Use the app for getting information about weed and how to grow it.
+- Access Weed Databa base to check it out what the options would have.
+- Mach the best week for hes needs. 
+- Filter by location from closest to farder (location) > price > rate.
+- Purchase throught the app by Money transfer
+
+Admins:
+- Capability to edit weed database
+- input the dispensery form into the database of weed store location.
+- has to confirm the money transfer
+- has to make the transfer to the weed store.
+- send template email of recieved money confirmation
+- send template email of waiting for shipping.
+
+Purchase process:
+
+- After user select the quantity and type, app will calculate the final price + shipping (if included by the dispensery)
+- The check out process will be generated
+- user will have to transfer teh money to the app email (it will be liked to an bank account).
+- After admin confirm the money transfer
+- User will receive a confirmation email.
+- Admin will transfer the money to the weed store.
+- After confirmation admin will send user email that weed will be shipped soon.
